@@ -1,0 +1,194 @@
+# Project Structure Template
+# Replace PROJECT_NAME with your actual project name
+# Customize directories and files as needed for your specific project
+
+project_info:
+  name: "PROJECT_NAME"
+  description: "Description of your project"
+  author: "Your Name"
+  version: "1.0.0"
+
+# Directories to create
+directories:
+  # Public assets
+  - public
+  - public/assets
+  
+  # Source code structure
+  - src
+  - src/assets/images
+  - src/assets/fonts
+  - src/assets/icons
+  
+  # Components structure (customize based on project needs)
+  - src/components/common
+  - src/components/layout
+  - src/components/features
+  
+  # Pages/views
+  - src/pages
+  - src/views
+  
+  # State management
+  - src/store
+  - src/store/actions
+  - src/store/reducers
+  
+  # Utilities, helpers, and services
+  - src/utils
+  - src/services
+  - src/hooks
+  - src/contexts
+  
+  # Styling
+  - src/styles
+  - src/styles/themes
+  
+  # Tests
+  - tests
+  - tests/unit
+  - tests/integration
+
+# Files to create (empty by default)
+files:
+  # Root configuration files
+  - package.json
+  - .gitignore
+  - README.md
+  - .env.example
+  
+  # Public files
+  - public/index.html
+  - public/manifest.json
+  - public/robots.txt
+  
+  # Entry points
+  - src/index.js
+  - src/App.js
+  
+  # Core styling
+  - src/styles/index.css
+  - src/styles/variables.css
+  - src/styles/global.css
+  - src/styles/themes/default.css
+  - src/styles/themes/dark.css
+  
+  # Common components (examples)
+  - src/components/common/Button.js
+  - src/components/common/Card.js
+  - src/components/common/Modal.js
+  - src/components/layout/Header.js
+  - src/components/layout/Footer.js
+  - src/components/layout/Sidebar.js
+  
+  # Example pages
+  - src/pages/Home.js
+  - src/pages/About.js
+  - src/pages/NotFound.js
+  
+  # Utilities
+  - src/utils/helpers.js
+  - src/utils/constants.js
+  - src/utils/api.js
+  
+  # Configuration
+  - src/config.js
+
+# Extensions to skip when creating empty files (asset files)
+skip_extensions:
+  - ".png"
+  - ".jpg"
+  - ".jpeg"
+  - ".gif"
+  - ".svg"
+  - ".ico"
+  - ".mp3"
+  - ".wav"
+  - ".ogg"
+  - ".ttf"
+  - ".woff"
+  - ".woff2"
+  - ".eot"
+
+# Optional: Sample content for certain files
+# You can add default content for files that you commonly configure
+file_contents:
+  "package.json": |
+    {
+      "name": "PROJECT_NAME",
+      "version": "1.0.0",
+      "description": "Description of your project",
+      "main": "src/index.js",
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+      },
+      "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+      }
+    }
+    
+  "README.md": |
+    # PROJECT_NAME
+    
+    Description of your project
+    
+    ## Getting Started
+    
+    ### Installation
+    
+    ```bash
+    npm install
+    ```
+    
+    ### Running the Application
+    
+    ```bash
+    npm start
+    ```
+    
+    ## Features
+    
+    - Feature 1
+    - Feature 2
+    
+    ## Technologies Used
+    
+    - Technology 1
+    - Technology 2
+    
+  ".gitignore": |
+    # Dependencies
+    /node_modules
+    
+    # Build
+    /build
+    /dist
+    
+    # Environment variables
+    .env
+    .env.local
+    .env.development.local
+    .env.test.local
+    .env.production.local
+    
+    # Logs
+    npm-debug.log*
+    yarn-debug.log*
+    yarn-error.log*
+    
+    # Editor directories and files
+    .idea
+    .vscode
+    *.suo
+    *.ntvs*
+    *.njsproj
+    *.sln
+    *.sw?
+    
+    # OS files
+    .DS_Store
+    Thumbs.db
