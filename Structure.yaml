@@ -1,0 +1,220 @@
+# GameForge.js Project Structure
+directories:
+  - public
+  - src/assets/images/backgrounds
+  - src/assets/images/ui
+  - src/assets/images/easter-eggs
+  - src/assets/fonts/8bit-fonts
+  - src/assets/sounds/ui-sounds
+  - src/assets/sounds/game-sounds
+  - src/assets/themes
+  - src/components/common/Button
+  - src/components/common/Navbar
+  - src/components/common/Footer
+  - src/components/common/GameCard
+  - src/components/common/PixelTransition
+  - src/components/common/SearchBar
+  - src/components/common/ThemeSwitcher
+  - src/components/common/FeaturedCarousel
+  - src/components/common/Leaderboard
+  - src/components/common/Rating
+  - src/components/common/SoundToggle
+  - src/components/common/FilterMenu
+  - src/components/auth/LoginForm
+  - src/components/auth/RegisterForm
+  - src/components/games/GamesList
+  - src/components/games/GameFrame
+  - src/components/games/GameCategories
+  - src/components/games/ReviewSection
+  - src/components/profile/UserProfile
+  - src/components/profile/FavoritesGallery
+  - src/components/developer/DocumentationViewer
+  - src/components/developer/SubmissionForm
+  - src/pages/LandingPage
+  - src/pages/GamesPage
+  - src/pages/GameCategoryPage
+  - src/pages/ContactPage
+  - src/pages/LoginPage
+  - src/pages/RegisterPage
+  - src/pages/GameDetailPage
+  - src/pages/ProfilePage
+  - src/pages/LeaderboardPage
+  - src/pages/DeveloperPortalPage
+  - src/layouts/MainLayout
+  - src/styles/themes
+  - src/games/templates/BasicGame
+  - src/games/templates/ArcadeGame
+  - src/games/templates/PuzzleGame
+  - src/hooks
+  - src/contexts
+  - src/utils
+  - src/routes
+
+files:
+  # Public files
+  - public/index.html
+  - public/favicon.ico
+  - public/manifest.json
+  - public/service-worker.js
+  
+  # Assets
+  - src/assets/themes/nes.scss
+  - src/assets/themes/snes.scss
+  - src/assets/themes/gameboy.scss
+  - src/assets/themes/arcade.scss
+  
+  # Component files
+  - src/components/common/Button/Button.jsx
+  - src/components/common/Button/Button.scss
+  - src/components/common/Navbar/Navbar.jsx
+  - src/components/common/Navbar/Navbar.scss
+  - src/components/common/Footer/Footer.jsx
+  - src/components/common/Footer/Footer.scss
+  - src/components/common/GameCard/GameCard.jsx
+  - src/components/common/GameCard/GameCard.scss
+  - src/components/common/PixelTransition/PixelTransition.jsx
+  - src/components/common/PixelTransition/PixelTransition.scss
+  - src/components/common/SearchBar/SearchBar.jsx
+  - src/components/common/SearchBar/SearchBar.scss
+  - src/components/common/ThemeSwitcher/ThemeSwitcher.jsx
+  - src/components/common/ThemeSwitcher/ThemeSwitcher.scss
+  - src/components/common/FeaturedCarousel/FeaturedCarousel.jsx
+  - src/components/common/FeaturedCarousel/FeaturedCarousel.scss
+  - src/components/common/Leaderboard/Leaderboard.jsx
+  - src/components/common/Leaderboard/Leaderboard.scss
+  - src/components/common/Rating/Rating.jsx
+  - src/components/common/Rating/Rating.scss
+  - src/components/common/SoundToggle/SoundToggle.jsx
+  - src/components/common/SoundToggle/SoundToggle.scss
+  - src/components/common/FilterMenu/FilterMenu.jsx
+  - src/components/common/FilterMenu/FilterMenu.scss
+  
+  # Auth components
+  - src/components/auth/LoginForm/LoginForm.jsx
+  - src/components/auth/LoginForm/LoginForm.scss
+  - src/components/auth/RegisterForm/RegisterForm.jsx
+  - src/components/auth/RegisterForm/RegisterForm.scss
+  
+  # Game components
+  - src/components/games/GamesList/GamesList.jsx
+  - src/components/games/GamesList/GamesList.scss
+  - src/components/games/GameFrame/GameFrame.jsx
+  - src/components/games/GameFrame/GameFrame.scss
+  - src/components/games/GameCategories/GameCategories.jsx
+  - src/components/games/GameCategories/GameCategories.scss
+  - src/components/games/ReviewSection/ReviewSection.jsx
+  - src/components/games/ReviewSection/ReviewSection.scss
+  
+  # Profile components
+  - src/components/profile/UserProfile/UserProfile.jsx
+  - src/components/profile/UserProfile/UserProfile.scss
+  - src/components/profile/FavoritesGallery/FavoritesGallery.jsx
+  - src/components/profile/FavoritesGallery/FavoritesGallery.scss
+  
+  # Developer components
+  - src/components/developer/DocumentationViewer/DocumentationViewer.jsx
+  - src/components/developer/DocumentationViewer/DocumentationViewer.scss
+  - src/components/developer/SubmissionForm/SubmissionForm.jsx
+  - src/components/developer/SubmissionForm/SubmissionForm.scss
+  
+  # Pages
+  - src/pages/LandingPage/LandingPage.jsx
+  - src/pages/LandingPage/LandingPage.scss
+  - src/pages/GamesPage/GamesPage.jsx
+  - src/pages/GamesPage/GamesPage.scss
+  - src/pages/GameCategoryPage/GameCategoryPage.jsx
+  - src/pages/GameCategoryPage/GameCategoryPage.scss
+  - src/pages/ContactPage/ContactPage.jsx
+  - src/pages/ContactPage/ContactPage.scss
+  - src/pages/LoginPage/LoginPage.jsx
+  - src/pages/LoginPage/LoginPage.scss
+  - src/pages/RegisterPage/RegisterPage.jsx
+  - src/pages/RegisterPage/RegisterPage.scss
+  - src/pages/GameDetailPage/GameDetailPage.jsx
+  - src/pages/GameDetailPage/GameDetailPage.scss
+  - src/pages/ProfilePage/ProfilePage.jsx
+  - src/pages/ProfilePage/ProfilePage.scss
+  - src/pages/LeaderboardPage/LeaderboardPage.jsx
+  - src/pages/LeaderboardPage/LeaderboardPage.scss
+  - src/pages/DeveloperPortalPage/DeveloperPortalPage.jsx
+  - src/pages/DeveloperPortalPage/DeveloperPortalPage.scss
+  
+  # Layouts
+  - src/layouts/MainLayout/MainLayout.jsx
+  - src/layouts/MainLayout/MainLayout.scss
+  
+  # Styles
+  - src/styles/_variables.scss
+  - src/styles/_mixins.scss
+  - src/styles/_animations.scss
+  - src/styles/_reset.scss
+  - src/styles/_typography.scss
+  - src/styles/_responsive.scss
+  - src/styles/_pixel-effects.scss
+  - src/styles/themes/_theme-base.scss
+  - src/styles/themes/_nes-theme.scss
+  - src/styles/themes/_gameboy-theme.scss
+  - src/styles/themes/_arcade-theme.scss
+  - src/styles/main.scss
+  
+  # Game system
+  - src/games/gameRegistry.js
+  - src/games/gameLoader.js
+  - src/games/gameCategories.js
+  - src/games/leaderboardManager.js
+  - src/games/featuredGames.js
+  - src/games/templates/BasicGame/index.jsx
+  - src/games/templates/BasicGame/styles.scss
+  - src/games/templates/ArcadeGame/index.jsx
+  - src/games/templates/ArcadeGame/styles.scss
+  - src/games/templates/PuzzleGame/index.jsx
+  - src/games/templates/PuzzleGame/styles.scss
+  - src/games/templates/README.md
+  
+  # Hooks and contexts
+  - src/hooks/useGameLoader.js
+  - src/hooks/useAuth.js
+  - src/hooks/useTheme.js
+  - src/hooks/useSound.js
+  - src/hooks/useLeaderboard.js
+  - src/hooks/useResponsive.js
+  - src/contexts/AuthContext.jsx
+  - src/contexts/GameContext.jsx
+  - src/contexts/ThemeContext.jsx
+  - src/contexts/SoundContext.jsx
+  - src/contexts/EasterEggContext.jsx
+  
+  # Utils
+  - src/utils/animations.js
+  - src/utils/gameIntegration.js
+  - src/utils/soundEffects.js
+  - src/utils/pixelEffects.js
+  - src/utils/responsive.js
+  - src/utils/easterEggs.js
+  - src/utils/reviewHelpers.js
+  - src/utils/pwaHelpers.js
+  - src/utils/searchAndFilter.js
+  
+  # Routes and app entry
+  - src/routes/index.jsx
+  - src/App.jsx
+  - src/index.js
+  
+  # Root files
+  - package.json
+  - .gitignore
+  - README.md
+
+# Asset files to skip during creation (just placeholders)
+skip_assets:
+  - "*.png"
+  - "*.jpg"
+  - "*.jpeg"
+  - "*.gif"
+  - "*.svg"
+  - "*.ico"
+  - "*.mp3"
+  - "*.wav"
+  - "*.ogg"
+  - "*.ttf"
+  - "*.woff"
